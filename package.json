@@ -1,0 +1,17 @@
+{
+  "name": "coba",
+  "version": "1.0.0",
+  "description": "cuma coba doang ngab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fakhri (NotF)",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "^0.12.2",
+    "glob": "^7.1.6",
+    "ms": "^2.1.3"
+  }
+}
