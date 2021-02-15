@@ -11,7 +11,7 @@
 
 # example
 <div align="center">
-    <img src="https://imgur.com/a/9xepdd7"><br><br>
+    <img src="https://i.imgur.com/QOAEfnC.png"><br><br>
 
 ---
 
