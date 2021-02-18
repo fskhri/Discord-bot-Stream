@@ -16,8 +16,10 @@
 ---
 
 # fiture
-**kick**
-**ban**
+Command prefix: ```c! ```
+
+`c!ban` banned
+`c!kick` kick 
 
 # Discord-bot-Stream
 </div>
