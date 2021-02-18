@@ -15,7 +15,9 @@
 
 ---
 
-
+# fiture
+**kick**
+**ban**
 
 # Discord-bot-Stream
 </div>
