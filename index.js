@@ -10,23 +10,36 @@ const misc = require("./misc/bot-info");
 const command = require ("./command.js");
 const commands = require ("./command");
 
-client.on(`ready`, () => {
-    console.log(`gw udh redi ngab, siap perang`);
+bot.on("ready", () => {
+  console.log("Kaguya Bot is online senpai >_<");
 
-    command(client, `hallo`, message => {
-        message.channel.send(`hallo world`)
+  //BOT STATUS
+  let setatus = [
+    "Saekyo",
+    ${bot.guilds.cache.size} servers,
+    ${bot.channels.cache.size} channels,
+    ${bot.users.cache.size} users, 
+    Made with 💙 by Saekyo
+  ];
+  setInterval(() => {
+    let index = Math.floor(Math.random() * (setatus.length - 1) + 1);
+
+    bot.user.setActivity(${db.get(status)} |  + setatus[index], {
+      type: "STREAMING",
+      URL: "https://www.twitch.tv/chilledcatradio"
     });
+  }, 300000);
 
-    command(client, `botinfo`, message => {
-        message.channel.send(`
-        **Bot Name: CoolBotBlyat
-        Version: 1.0.0
-        Pemilik: suhbreenaa#6390
-        Bahasa: Discord.JS dan NodeJS dan bahasa indonesia
-
-        Masih beta test**
-        `)
-    });
+  //NOTIF BOT RESTART
+  const upchannel = bot.channels.cache.get("809396265473409066");
+  const upembed = new Discord.MessageEmbed()
+    .setThumbnail(bot.user.avatarURL())
+    .setTitle("Bot restart Notification")
+    .setDescription(
+      "Maybe some glitch or my owner restarted me I am back online"
+    );
+  upchannel.send(upembed);
+});
 
     command(client, `github`, message => {
         message.channel.send(`https://github.com/fskhrijuanda`)
@@ -48,11 +61,5 @@ kapan kapan upload ke github
 **!botinfo** - mengetahui tentang bot
 
 `)
-    });
-    client.user.setActivity("IYAH menkrep Blyad", {
-        type: "STREAMING",
-        url: "https://twitch.tv/fakhri3122"
-    });
-});
 
 client.login("token") //sebenernya taro token di sini gpp
