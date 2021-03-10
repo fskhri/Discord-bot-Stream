@@ -45,3 +45,6 @@ Run:
 1. Open your terminal or command prompt or whatever it is called, navigate (`cd`) to the cloned repo;
 2. Run `node index.js` or `npm start`;
 3. Well, technically you're done!.
+
+### Donate
+* <a href="https://saweria.co/donate/fakhri"><img alt="Saweria" src="https://img.shields.io/badge/Saweria-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" /></a>
