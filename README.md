@@ -31,7 +31,7 @@ A simple Bot script for your bot to show anda live stream on twitch  it is in yo
 Requirements:
 1. [**Node.js**](https://nodejs.org/en/) **v12** or higher LTS version;
 2. [**Your Discord bot's token**](https://discordapp.com/developers/applications/);
-3. Link twich
+3. Link twitch
 
 Installation:
 1. Clone or download this repo;
